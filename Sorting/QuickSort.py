@@ -15,7 +15,7 @@ def quick_sort(array):
         return quick_sort(less) + [pivot] + quick_sort(greater)
 
 
-print(quick_sort([3,1,13,5,39,25,7,4]))
+print(quick_sort([3,51,13,5,39,25,7,4]))
 
 ##### [1, 3, 4, 5, 7, 13, 25, 39]
 
