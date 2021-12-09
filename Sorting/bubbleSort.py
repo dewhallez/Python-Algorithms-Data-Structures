@@ -27,7 +27,8 @@ time.sleep(1)
 
 # end time
 end = time.time()
+T = (end - start)
 
 # Total time
-print(f"Runtime of the program is {end - start} ")
+print(f"Runtime of the program is {T}" )
 
